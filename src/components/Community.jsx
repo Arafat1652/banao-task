@@ -12,7 +12,7 @@ const Community = () => {
             <Button variant="" className='px-4 mb-5 bg-custom text-white'>Get Started</Button>
        
           
-            <img className='img-fluid' src="/public/community.svg" alt="" srcset="" />
+            <img className='img-fluid' src="/community.svg" alt="" srcset="" />
 
             
          

@@ -13,7 +13,7 @@ import { FaBell, FaBookmark, FaShoppingCart } from 'react-icons/fa';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="">
+    <Navbar expand="lg" className=" w-100">
       <Container>
         <Navbar.Brand href="#"><img src="/public/logo.png" alt="" srcset="" /></Navbar.Brand>
         <Form className="d-flex ms-0 ms-lg-3">

@@ -27,7 +27,7 @@ const Banner = () => {
               and promote yourself, your students, products, services or events.
               Hop on your hobbyhorse and enjoy the ride.
             </p>
-            <img className="mt-5 img-fluid" src="/public/vector.svg" alt="" />
+            <img className="mt-5 img-fluid" src="/vector.svg" alt="" />
           </div>
           {/* sign in part */}
           <div className="w-50 lg-w-100">

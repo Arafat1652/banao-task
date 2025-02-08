@@ -41,7 +41,7 @@ const Testimonials = () => {
             <div className="row align-items-center">
               <div className="col-md-8 p-4">
                 <audio
-                  src="/public/audio.mp3"
+                  src="/audio.mp3"
                   controls
                   className="w-75"
                  
