@@ -15,7 +15,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className=" w-100">
       <Container>
-        <Navbar.Brand href="#"><img src="/public/logo.png" alt="" srcset="" /></Navbar.Brand>
+        <Navbar.Brand href="#"><img src="/logo.png" alt="" srcset="" /></Navbar.Brand>
         <Form className="d-flex ms-0 ms-lg-3">
             <Form.Control
               type="search"
