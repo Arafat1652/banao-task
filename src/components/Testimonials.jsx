@@ -43,6 +43,7 @@ const Testimonials = () => {
                 <audio
                   src="/public/audio.mp3"
                   controls
+                  className="w-75"
                  
                   style={{
                     paddingBottom:'20px',

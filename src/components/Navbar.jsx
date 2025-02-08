@@ -16,7 +16,7 @@ function NavScrollExample() {
     <Navbar expand="lg" className="">
       <Container>
         <Navbar.Brand href="#"><img src="/public/logo.png" alt="" srcset="" /></Navbar.Brand>
-        <Form className="d-flex ms-3">
+        <Form className="d-flex ms-0 ms-lg-3">
             <Form.Control
               type="search"
               placeholder="SEARCH HEAR"
@@ -28,12 +28,12 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0 d-flex justify-content-between align-items-center gap-4"
+            className="me-auto my-2 my-lg-0 d-flex flex-column flex-lg-row justify-content-between align-items-center gap-lg-4 gap-4"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
             {/* <Nav.Link href="#action2">Link</Nav.Link> */}
-          <div style={{marginLeft:'100px'}} className='d-flex justify-content-center align-items-center'>
+          <div style={{marginLeft:'100px'}} className='d-flex ms-0 ms-lg-5 justify-content-center align-items-center'>
             <div style={{padding:'3px'}} className='rounded-circle bg-custom fill'>
 
           <CiCompass1 size={20} className='text-white '/>

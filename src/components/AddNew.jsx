@@ -6,7 +6,7 @@ const AddNew = () => {
     <div className="mt-5" style={{background: '#F7FDFF',padding:'80px'}}>
       <Container>
         <div className="bg-white border " style={{}}>
-          <div className="container p-5">
+          <div className="container p-lg-5 p-4">
             <h3 className="d-flex gap-4 align-content-center mb-4">
               <span
                 style={{

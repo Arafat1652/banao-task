@@ -9,9 +9,9 @@ const Banner = () => {
       <Container>
         <div
           style={{ gap: "100px" }}
-          className="d-flex justify-content-between"
+          className="d-flex flex-column flex-lg-row justify-content-between align-content-center"
         >
-          <div className="w-50">
+          <div className="w-100 w-lg-50">
             <h1 className="fs-1 mb-5">
               Explore your <span className="hobby"> hobby</span> or{" "}
               <span className="passion">passion</span>
@@ -27,10 +27,10 @@ const Banner = () => {
               and promote yourself, your students, products, services or events.
               Hop on your hobbyhorse and enjoy the ride.
             </p>
-            <img className="mt-5" src="/public/vector.svg" alt="" />
+            <img className="mt-5 img-fluid" src="/public/vector.svg" alt="" />
           </div>
           {/* sign in part */}
-          <div className="w-50">
+          <div className="w-50 lg-w-100">
             <div className="underline-tabs mb-5">
               <ul className="nav nav-tabs" id="underlineTabs" role="tablist">
                 <li className="nav-item" role="presentation">
@@ -107,6 +107,7 @@ const Banner = () => {
                                   type="email"
                                   className="form-control"
                                   id="email"
+                                  placeholder="Email"
                                   required
                                 />
                               </div>
@@ -115,6 +116,7 @@ const Banner = () => {
                                   type="password"
                                   className="form-control"
                                   id="password"
+                                  placeholder="Password"
                                   required
                                 />
                               </div>
