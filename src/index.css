@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+*{
+  font-family: "Poppins", serif;
+}
+
+.bg-custom  {
+    background-color: #8064A2 !important;
+  }
+
+.bg-gray {
+  background-color: #EBEDF0 !important;
+}
+
+.colorPrimary {
+  color:#8064A2 !important;
+}
+
+/* hobby */
+.hobby{
+  color: #0096c8;
+}
+
+.passion{
+  color: #8064a2;
+}
+
+/* card button */
+.custom-hover-button {
+  border: 1px solid #8064A2 !important;
+  color: #8064A2 !important;
+  background-color: transparent !important;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-hover-button:hover {
+  border: 1px solid white !important;
+  color: white !important;
+  background-color: #8064A2 !important;
+}
+
+/* --> card hover 1 */
+
+
+.custom-card1 {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+.custom-card1:hover {
+  background-color: #8064A2 !important;
+  color: white !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card1:hover .card-title span {
+  color: white !important;
+}
+
+.custom-card1:hover .custom-button {
+  border-color: white !important;
+  color: white !important;
+}
+/* --> card hover 2*/
+
+
+.custom-card2 {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+.custom-card2:hover {
+  background-color: #77933c !important;
+  color: white !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card2:hover .card-title span {
+  color: white !important;
+}
+
+.custom-card2:hover .custom-button {
+  border-color: white !important;
+  color: white !important;
+}
+/* --> card hover 3*/
+
+
+.custom-card3 {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+.custom-card3:hover {
+  background-color: #C0504D !important;
+  color: white !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card3:hover .card-title span {
+  color: white !important;
+}
+
+.custom-card3:hover .custom-button {
+  border-color: white !important;
+  color: white !important;
+}
+/* --> card hover 4*/
+
+
+.custom-card4 {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+.custom-card4:hover {
+  background-color: #0096C8 !important;
+  color: white !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card4:hover .card-title span {
+  color: white !important;
+}
+
+.custom-card4:hover .custom-button {
+  border-color: white !important;
+  color: white !important;
+}
+
+
+
